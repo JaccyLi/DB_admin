@@ -7,5 +7,5 @@ MySQL_admin
 
 Configurations::
 
-    ksdfjs
-    kdfhsk
+    /etc/my.cnf.d/server.cnf
+
