@@ -7,5 +7,16 @@ MySQL_admin
 
 Configurations::
 
-    /etc/my.cnf.d/server.cnf
+    ./server.cnf    # usually in /etc/my.cnf.d/
+    ./client.cnf    # usually in /etc/my.cnf.d/
+    ./my.cnf        # usually in /etc/
+
+Readme for configurations::
+
+    ./server.cnf.readme.rst
+
+Bash Shell Scripts::
+
+    ./auto_install_mysql_v01.sh
+
 

@@ -1,6 +1,12 @@
 From official documentation
 ===========================
 
+General Configure::
+
+    skip_name_resolve=0|1    # If set to 1 (0 is the default), only IP addresses are used for connections.
+        Host names are not resolved.All host values in the GRANT tables must be IP addresses (or localhost).
+    innodb_flush_log_at_trx_commit=0|1|2|3   # Set to 1, along with sync_binlog=1 for the greatest level of fault tolerance.
+
 For the greatest possible durability and consistency in a replication setup that uses InnoDB with transactions,
 in /etc/my.cnf.d/use these settings::
 
@@ -22,10 +28,10 @@ Whether the slow query log is enabled, 'Slow' is determined by the value of the 
     slow_query_log=ON|OFF
     slow_query_log_file=/PATH/TO/CUSTPATH   # default is host_name.log eg:centos8-slow.log
     long_query_time=10   # default 10,  resolution can be microseconds.
-    The minimum and default values of long_query_time are 0 and 10
-    If a query takes longer than this many seconds, the server increments
-    the Slow_queries status variable. If the slow query log is enabled,
-    the query is logged to the slow query log file.
+        The minimum and default values of long_query_time are 0 and 10
+        If a query takes longer than this many seconds, the server increments
+        the Slow_queries status variable. If the slow query log is enabled,
+        the query is logged to the slow query log file.
     long_query_time=N   #慢查询的阀值，单位秒
     slow_query_log_file=HOSTNAME-slow.log #慢查询日志文件
     log_slow_filter = admin,filesort,filesort_on_disk,full_join,full_scan,
@@ -40,6 +46,7 @@ Whether the slow query log is enabled, 'Slow' is determined by the value of the 
 Sets the binary logging format::
 
     binlog_format=STATEMENT|ROW|MIXED
+
     related variables:
     sql_log_bin=ON|OFF：#是否记录二进制日志，默认ON
     log_bin=/PATH/BIN_LOG_FILE：#指定文件位置；默认OFF，表示不启用二进制日志功能，上述两项都开启才可
