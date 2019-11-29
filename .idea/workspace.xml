@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95bd8d0f-ba17-4d48-b16e-122e1d9a6219" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.cnf.readme.rst" beforeDir="false" afterPath="$PROJECT_DIR$/server.cnf.readme.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.cnf.readme.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
@@ -39,7 +33,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="22" />
     <option name="width" value="974" />
@@ -50,6 +44,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -61,13 +56,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/M39-Slides-Edited-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonPlayground" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -101,17 +95,18 @@
       <updated>1574688240300</updated>
       <workItem from="1574688243984" duration="4020000" />
       <workItem from="1574725907241" duration="11368000" />
-      <workItem from="1574987943570" duration="574000" />
+      <workItem from="1574987943570" duration="2046000" />
+      <workItem from="1574992219130" duration="228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15962000" />
+    <option name="totallyTimeSpent" value="17662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="22" width="974" height="1057" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30810234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42997813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -154,10 +149,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.cnf" />
-    <entry file="file://$PROJECT_DIR$/server .cnf">
+    <entry file="file://$PROJECT_DIR$/my.cnf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my.cnf">
+    <entry file="file://$PROJECT_DIR$/server .cnf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
