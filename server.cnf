@@ -11,15 +11,17 @@
 # this is only for the mysqld standalone daemon
 [mysqld]
 autocommit=0                                # no autocommit for each session
+#transaction_isolation = "READ-COMMITTED"   # default is "REPEATABLE-READ"
+#transaction_isolation = "SERIALIZABLE"     # select @@tx_isolation
+#innodb_flush_log_at_trx_commit=0|2|3       # default is 1 , Logs are written and flushed to disk at each transaction commit.
 log_error=/var/log/mariadb/error_log.log
 log_warnings=2
+slow_query_log=ON
+slow_query_log_file=/var/log/mariadb/mariadb-slow
 long_query_time=1
+skip_name_resolve=1
 log_bin=/data/mysql/log/mage054
 sync_binlog=1
-server-id=54 
-read_only=ON
-relay_log=relay-log
-relay_log_index=relay-log.index
 
 general_log=ON|OFF
 log_output=FILE
