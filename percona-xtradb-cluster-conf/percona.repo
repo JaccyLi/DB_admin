@@ -1,0 +1,5 @@
+[percona]
+name=percona_repo
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/percona/release/$releasever/RPMS/$basearch
+enabled=1
+gpgcheck=0
