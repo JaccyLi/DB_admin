@@ -18,5 +18,5 @@ Readme for configurations::
 Bash Shell Scripts::
 
     ./auto_install_mysql_v01.sh
-
+    ./auto_install_mysql_v03.sh
 
