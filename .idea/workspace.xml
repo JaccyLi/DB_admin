@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95bd8d0f-ba17-4d48-b16e-122e1d9a6219" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/percona-xtradb-cluster-conf/PXC_README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_install_mysql_v01.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.cnf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server.cnf.readme.rst" beforeDir="false" afterPath="$PROJECT_DIR$/server.cnf.readme.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,9 +18,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.cnf.readme.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/PXC_README.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node3">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -30,12 +77,14 @@
         <option value="$PROJECT_DIR$/server.cnf" />
         <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/server.cnf.readme.rst" />
+        <option value="$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node4" />
+        <option value="$PROJECT_DIR$/percona-xtradb-cluster-conf/PXC_README.rst" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="872" />
-    <option name="y" value="73" />
+    <option name="x" value="935" />
+    <option name="y" value="64" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
@@ -44,6 +93,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -51,17 +101,21 @@
               <item name="DB_admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="DB_admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DB_admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="percona-xtradb-cluster-conf" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonPlayground" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -97,12 +151,13 @@
       <workItem from="1574725907241" duration="11368000" />
       <workItem from="1574987943570" duration="2046000" />
       <workItem from="1574992219130" duration="228000" />
-      <workItem from="1575109376316" duration="1805000" />
+      <workItem from="1575109376316" duration="2069000" />
+      <workItem from="1575356470443" duration="1774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19467000" />
+    <option name="totallyTimeSpent" value="21505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -114,10 +169,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="872" y="73" width="974" height="1057" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.43976545" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.44857767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -126,7 +181,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32583067" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -163,13 +218,42 @@
     <entry file="file://$PROJECT_DIR$/my.cnf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server .cnf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server .cnf" />
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/server.cnf.readme.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/wsrep.cnf_node4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/percona-xtradb-cluster-conf/PXC_README.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>

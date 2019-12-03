@@ -1,5 +1,5 @@
-From official documentation
-===========================
+MySQL Database Configuration
+============================
 
 General Configure::
 
@@ -45,7 +45,7 @@ Whether the slow query log is enabled, 'Slow' is determined by the value of the 
 
 Profiling the query::
 
-    set profiling = ON  # 查看SQL语句的底层资源使用情况
+    SET profiling = ON  # 查看SQL语句的底层资源使用情况
     show profiles;      # 查看语句,注意结果中的query_id值
     Show profile for query #;     # 显示语句的详细执行步骤和时长
     Show profile cpu for query #; # 显示cpu使用情况
@@ -101,7 +101,6 @@ TOOL:mysqlbinlog::
 
     mysqlbinlog --start-position=678 --stop-position=752 /var/lib/mysql/mariadb-bin.000003 -v
     mysqlbinlog  --start-datetime="2018-01-30 20:30:10"   --stop-datetime="2018-01-30 20:35:22" mariadb-bin.000003 -vvv
-
 
 MySQL-replication
 -----------------
